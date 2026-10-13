@@ -43,5 +43,5 @@ else
   echo 'Developer ID signed. Apple notarization has not been performed.'
 fi
 hdiutil verify "$DMG"
-shasum -a 256 "$DMG" > "$DMG.sha256"
+shasum -a 256 "$DMG" | sed 's|  dist/|  |' > "$DMG.sha256"
 echo "Release ready: $DMG"
