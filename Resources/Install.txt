@@ -1,0 +1,15 @@
+elite-comms 0.2.0
+
+Requires an Apple silicon Mac with macOS 26 or later.
+Drag elite-comms.app to Applications, then open it.
+The app runs as a menu bar item with a floating side panel.
+
+Install the Codex CLI separately and sign in with your own account using codex login.
+Open the gear tab and enter your country, committee and topic.
+Add your position paper and study guides as PDF, Markdown or text files.
+
+First use downloads the speech and voice models. Microphone audio is processed on your Mac.
+AI requests send the relevant transcript, your settings and imported brief text to Codex.
+This build has a Developer ID signature. Check the GitHub release notes for its notarization status.
+
+https://github.com/zabrodsk/elite-comms

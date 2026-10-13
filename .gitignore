@@ -1,0 +1,14 @@
+.build/
+.a5c/
+.omc/
+Sessions/
+*.wav
+.DS_Store
+
+# Personal delegation documents and local test recordings never ship.
+Brief/
+TestAudio/
+.codex-task-*.md
+dist/
+*.dmg
+*.zip
